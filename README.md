@@ -11,7 +11,7 @@ How to Use
 ----------
 * Buy a [Jambox](https://hackerboxes.com/collections/past-hackerboxes/products/hackerbox-0028-jambox)
 * Follow the inscructions on their [instructable](https://www.instructables.com/id/HACKERBOX-0028-JamBox/) up to step 7
-* Downlaod JamboxSequencer.ino from this library, open it in Arduino IDE and flash it.
+* Download JamboxSequencer.ino from this repo, open it in Arduino IDE and flash it.
 * Play with the knobs and buttons.
 
 Why did you write this?
