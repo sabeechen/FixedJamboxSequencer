@@ -1,14 +1,3 @@
-// Removed all the unreachable code.
-// Avoided using bit-wise logic.
-// Added comments explaining pretty much everything.
-// Fixed issues with endienness, the I2S bus for the jambox expects LSB, not MSB.
-// Fixed pre-bufferring that caused the waveform phase to "jump" at the end of the buffer.
-// Fixed buffer timing that caused the buffer to run otu before new data could be sent over I2s.
-// Fixed scales, previously weren't associated with anything.
-
-// Problems:
-// Audio gets garbled when you play more than 4 or so notes at a time.
-
 //Block Step Sequencer Demo
 //For use on JamBox (HackerBox #0028)
 //  Each of 8 buttons turns on or off a note for the current beat
