@@ -158,6 +158,10 @@ void setup() {
   scrollJamboxText();
 
   // For each of the notes, precompute how much to advance its phase for each sample.
+  // If "f" is frequency in Hz and "t" is time in seconds, then sin(t * f * 2 * PI)
+  // describes a wave of frequency f.  Since each sample jumps 1/SAMPLE_RATE_HZ
+  // seconds forward in time,  (PI * 2 * f)/SAMPLE_RATE_HZ describes how much each
+  // frequency jumps for each new sample.
   for (int i = 0 ; i < NOTE_COUNT; i++) {
     frequencySteps[i] = (PI * 2 * noteFrequencies[i])/SAMPLE_RATE_HZ;
   }
