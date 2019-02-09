@@ -80,7 +80,7 @@ static const i2s_config_t I2S_CONFIG = {
      // Sets the sample rate.
      .sample_rate = SAMPLE_RATE_HZ,
 
-     // Sets the sampel rate, two channels of 16 bits each.
+     // Sets the sample rate, two channels of 16 bits each.
      .bits_per_sample = (i2s_bits_per_sample_t) 16,
      .channel_format = I2S_CHANNEL_FMT_RIGHT_LEFT,
 
