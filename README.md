@@ -1,3 +1,7 @@
+### This is a fork from Stephen Beeche mod and is intended to add:
+- [ ] Different sounds samples per matrix row
+
+
 Fixed Jambox Sequencer Demo (Hackerbox #0028)
 ==========
 
